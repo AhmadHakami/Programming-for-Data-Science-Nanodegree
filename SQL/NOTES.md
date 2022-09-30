@@ -15,3 +15,10 @@ LIMIT 10;
 ```
 
 We could also change the number of rows by changing the 10 to any other number of rows.
+------------------
+### ORDER BY
+
+The **`ORDER BY`** statement allows us to sort our results using the data in any column.
+
+> Pro-Tip
+Remember  `DESC`  can be added after the column in your  **ORDER BY**  statement to sort in **descending** order, as the default is to sort in **ascending** order.
