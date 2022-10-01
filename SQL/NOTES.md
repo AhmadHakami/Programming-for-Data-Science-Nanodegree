@@ -13,8 +13,8 @@ SELECT *
 FROM orders
 LIMIT 10;
 ```
-
 We could also change the number of rows by changing the 10 to any other number of rows.
+
 ------------------
 ### ORDER BY
 
