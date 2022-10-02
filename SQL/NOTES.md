@@ -102,3 +102,9 @@ _______________
 |WHERE CustomerName LIKE **'`a_%`'**|Finds any values that start with `"a"` and are at least 2 characters in length|
 |WHERE CustomerName LIKE **'`a__%`'**|Finds any values that start with `"a"` and are at least 3 characters in length|
 |WHERE ContactName LIKE **'`a%o`'**|Finds any values that start with `"a"` and ends with `"o"`|
+
+> use `[ ]` to choose many charachters, such as '**[**`abc`**]**%' meaning start with **a** or **b** or **c**, and using `!` for **not** , for example '**[**`!abc`**]**%' meaning not start with **a** or **b** or **c**
+
+-------------------
+
+
