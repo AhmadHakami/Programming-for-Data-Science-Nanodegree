@@ -64,7 +64,7 @@ If you are deriving the new column from existing columns using a mathematical ex
 4.  `/`  (Division)
 
 
-> **`Order of Operations`** Remember PEMDAS from math class to help remember the order of operations? If not, check out this  [link](http://www.purplemath.com/modules/orderops.htm)  as a reminder. The same order of operations applies when using arithmetic operators in SQL.
+> **`Order of Operations`** Remember `PEMDAS` from math class to help remember the order of operations? If not, check out this  [link](http://www.purplemath.com/modules/orderops.htm)  as a reminder. The same order of operations applies when using arithmetic operators in SQL.
 
 `PEMDAS`
 1. **P**arentheses
