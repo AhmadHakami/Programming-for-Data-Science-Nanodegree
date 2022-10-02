@@ -22,3 +22,33 @@ The **`ORDER BY`** statement allows us to sort our results using the data in any
 
 > Pro-Tip
 Remember  `DESC`  can be added after the column in your  **ORDER BY**  statement to sort in **descending** order, as the default is to sort in **ascending** order.
+
+-------------
+
+### WHERE
+Using the **`WHERE`** statement, we can display _subsets_ of tables based on conditions that must be met. You can also think of the **`WHERE`** command as _filtering_ the data.
+
+Common symbols used in  **`WHERE`**  statements include:
+
+1.  `>`  (greater than)
+    
+2.  `<`  (less than)
+    
+3.  `>=`  (greater than or equal to)
+    
+4.  `<=`  (less than or equal to)
+    
+5.  `=`  (equal to)
+    
+6.  `!=`  (not equal to)
+
+-------------------------------
+
+
+### WHERE with Non-Numeric Data
+The  **`WHERE`**  statement can also be used with non-numeric data. We can use the  **`=`**  and  **`!=`**  operators here. You need to be sure to use single quotes (just be careful if you have quotes in the original text) with the text data, not double quotes. Commonly when we are using  **`WHERE`**  with non-numeric data fields, we use the  **`LIKE`**,  **`NOT`**, or  **`IN`**  operators.
+
+
+
+------------------------------
+
