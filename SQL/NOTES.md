@@ -20,7 +20,7 @@ We could also change the number of rows by changing the 10 to any other number o
 
 The **`ORDER BY`** statement allows us to sort our results using the data in any column.
 
-> Pro-Tip
+> **`Pro-Tip:`** 
 Remember  `DESC`  can be added after the column in your  **ORDER BY**  statement to sort in **descending** order, as the default is to sort in **ascending** order.
 
 -------------
@@ -106,5 +106,11 @@ _______________
 > use `[ ]` to choose many charachters, such as '**[**`abc`**]**%' meaning start with **a** or **b** or **c**, and using `!` for **not** , for example '**[**`!abc`**]**%' meaning not start with **a** or **b** or **c**
 
 -------------------
+
+> ### IN
+
+The **`IN`** operator is useful for working with both numeric and text columns. This operator allows you to use an **`=`**, but for more than one item of that particular column. We can check one, two, or many column values for which we want to pull data, but all within the same query.
+
+> **`Expert Tip:`** in most SQL environments you can use single or double quotation marks - and you may NEED to use double quotation marks if you have an apostrophe within the text you are attempting to pull.
 
 
