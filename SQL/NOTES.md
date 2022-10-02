@@ -52,3 +52,22 @@ The  **`WHERE`**  statement can also be used with non-numeric data. We can use t
 
 ------------------------------
 
+### Derived Columns
+Creating a new column that is a combination of existing columns is known as a  **derived**  column (or "calculated" or "computed" column).  to give a name to your new column use the **`AS`**  keyword.
+
+
+If you are deriving the new column from existing columns using a mathematical expression, then these familiar mathematical operators will be useful:
+
+1.  `*`  (Multiplication)
+2.  `+`  (Addition)
+3.  `-`  (Subtraction)
+4.  `/`  (Division)
+
+
+> **`Order of Operations`** Remember PEMDAS from math class to help remember the order of operations? If not, check out this  [link](http://www.purplemath.com/modules/orderops.htm)  as a reminder. The same order of operations applies when using arithmetic operators in SQL.
+
+
+-----------------
+
+
+
