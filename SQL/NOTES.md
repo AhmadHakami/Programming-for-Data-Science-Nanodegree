@@ -66,6 +66,12 @@ If you are deriving the new column from existing columns using a mathematical ex
 
 > **`Order of Operations`** Remember PEMDAS from math class to help remember the order of operations? If not, check out this  [link](http://www.purplemath.com/modules/orderops.htm)  as a reminder. The same order of operations applies when using arithmetic operators in SQL.
 
+`PEMDAS`
+1. **P**arentheses
+2. **E**xponents
+3. **M**ultiplication and  **D**ivision
+4. **A**ddition and  **S**ubtraction
+
 
 -----------------
 
