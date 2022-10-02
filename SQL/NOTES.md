@@ -113,4 +113,14 @@ The **`IN`** operator is useful for working with both numeric and text columns. 
 
 > **`Expert Tip:`** in most SQL environments you can use single or double quotation marks - and you may NEED to use double quotation marks if you have an apostrophe within the text you are attempting to pull.
 
+------------------
+
+> ### NOT
+
+The **`NOT`** operator is an extremely useful operator for working with the previous two operators we introduced: `IN` and `LIKE`. By specifying **`NOT LIKE`** or **`NOT IN`**, we can grab all of the rows that do not meet particular criteria.
+
+----------------------
+
+
+
 
