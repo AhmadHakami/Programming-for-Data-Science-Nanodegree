@@ -125,4 +125,18 @@ The **`NOT`** operator is an extremely useful operator for working with the prev
 The **`AND`** operator is used within a **`WHERE`** statement to consider more than one logical clause at a time. Each time you link a new statement with an **`AND`**, you will need to specify the column you are interested in looking at. You may link as many statements as you would like to consider at the same time. This operator works with all of the operations we have seen so far including arithmetic operators (`+`, `*`, `-`, `/`). **`LIKE`**, **`IN`**, and **`NOT`** logic can also be linked together using the **`AND`** operator.
 
 
+-----------------------
 
+> ### BETWEEN 
+Sometimes we can make a cleaner statement using  **`BETWEEN`**  than we can use  **`AND`**. Particularly this is true when we are using the same column for different parts of our  **`AND`**  statement.
+
+Instead of writing :
+
+```
+WHERE column >= 6 AND column <= 10
+```
+
+we can instead write, equivalently:
+
+```
+WHERE column BETWEEN 6 AND 10
