@@ -146,3 +146,11 @@ WHERE column BETWEEN 6 AND 10
 
 > ### OR
 Similar to the **`AND`** operator, the **`OR`** operator can combine multiple statements. Each time you link a new statement with an **`OR`**, you will need to specify the column you are interested in looking at. You may link as many statements as you would like to consider at the same time. This operator works with all of the operations we have seen so far including arithmetic operators (`+`, `*`, `-`, `/`), **`LIKE`**, **`IN`**, **`NOT`**, **`AND`**, and **`BETWEEN`** logic can all be linked together using the **`OR`** operator.
+
+
+----------------------------------
+
+
+### GROUP BY:
+
+The `GROUP BY` clause will group records in a result set by identical values in one or more columns. It is often used in combination with aggregate functions to query information of similar records. The `GROUP BY` clause can come after `FROM` or `WHERE` but must come before any `ORDER BY` or `LIMIT` clause.
