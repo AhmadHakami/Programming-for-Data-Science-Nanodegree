@@ -163,3 +163,17 @@ The `GROUP BY` clause will group records in a result set by identical values in 
 ### DISTINCT:
 
 **`DISTINCT`** is always used in **`SELECT`** statements, and it provides the unique rows for all columns written in the **`SELECT`** statement. Therefore, you only use **`DISTINCT`** once in any particular **`SELECT`** statement.
+
+
+----------------------
+
+
+### HAVING:
+**`HAVING`**  is the “clean” way to filter a query that has been aggregated
+
+```
+SELECT account_id, SUM(total_amt_usd) AS sum_total_amt_usd
+FROM orders
+GROUP BY 1
+HAVING SUM(total_amt_usd) >= 250000
+```
