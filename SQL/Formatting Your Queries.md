@@ -67,10 +67,3 @@ Best practice:
 SELECT account_id
 FROM orders;
 ```
-
-Since our environment here doesn't require it, you will see solutions written without the semicolon:
-
-```
-SELECT account_id
-FROM orders
-```
