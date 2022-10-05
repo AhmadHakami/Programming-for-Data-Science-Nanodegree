@@ -154,3 +154,12 @@ Similar to the **`AND`** operator, the **`OR`** operator can combine multiple st
 ### GROUP BY:
 
 The `GROUP BY` clause will group records in a result set by identical values in one or more columns. It is often used in combination with aggregate functions to query information of similar records. The `GROUP BY` clause can come after `FROM` or `WHERE` but must come before any `ORDER BY` or `LIMIT` clause.
+
+>  **`GROUP BY` - Expert Tips:**
+ The order of column names in your  **`GROUP BY`**  clause doesn’t matter—the results will be the same regardless. 
+
+------------------
+
+### DISTINCT:
+
+**`DISTINCT`** is always used in **`SELECT`** statements, and it provides the unique rows for all columns written in the **`SELECT`** statement. Therefore, you only use **`DISTINCT`** once in any particular **`SELECT`** statement.
