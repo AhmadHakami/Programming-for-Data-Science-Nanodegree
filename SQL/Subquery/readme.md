@@ -1,11 +1,3 @@
-### Subquery vs. JOINs 
-| **Components** | **Subquery** | **JOINs**
-|--|--| --| 
-Combine data from multiple tables into a single result |❎|❎
-Create a flexible view of tables stitched together using a key |✅|❎
-Build an output to use in a later part of the query |❎|✅
-Subquery Plan: What happens under the hood |❎|❎
-
 ### Fundamentals to Know about Subqueries:
 
 -   Subqueries must be fully placed inside parentheses.
@@ -48,3 +40,16 @@ There are four places where subqueries can be inserted within a larger query:
 ### Dependencies:
 
 A subquery can be  **dependent**  on the outer query or  **independent**  of the outer query.
+
+
+---------------
+
+### Subquery Placement:
+
+**With:**  This subquery is used when you’d like to “pseudo-create” a table from an existing table and  **visually scope**  the temporary table at the top of the larger query.
+
+**Nested:**  This subquery is used when you’d like the temporary table to act as a filter within the larger query, which implies that it often sits within the  **where clause.**
+
+**Inline:**  This subquery is used in the same fashion as the  **WITH**  use case above. However, instead of the temporary table sitting on top of the larger query, it’s embedded within the  **from clause.**
+
+**Scalar:**  This subquery is used when you’d like to generate a scalar value to be used as a benchmark of some sort.
