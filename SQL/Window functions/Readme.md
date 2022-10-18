@@ -1,4 +1,9 @@
 
+
+<p align="center">
+  <img src="https://cdn.sanity.io/images/oaglaatp/production/e0d2b575fa404eec7c9bedcae9c3818261ffe1ab-1200x800.png?w=1200&h=800&auto=format" />
+</p>
+
 ### What is a window function?
 
 **Window Function:**  A window function is a calculation across a set of rows in a table that are somehow related to the current row. This means we’re typically:
@@ -7,11 +12,6 @@
 2.  Ranking records across rows, inclusive of the current one
 
 A window function is similar to aggregate functions combined with group by clauses but have one key difference:  **Window functions retain the total number of rows between the input table and the output table (or result).**  Behind the scenes, the window function is able to access more than just the current row of the query result.
-
-
-<p align="center">
-  <img src="https://cdn.sanity.io/images/oaglaatp/production/e0d2b575fa404eec7c9bedcae9c3818261ffe1ab-1200x800.png?w=1200&h=800&auto=format" />
-</p>
 
 -   **Partition by:**  A subclause of the OVER clause. Similar to GROUP BY.
 -   **Over:**  Typically precedes the partition by that signals what to “GROUP BY”.
