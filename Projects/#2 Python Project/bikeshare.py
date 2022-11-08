@@ -203,7 +203,7 @@ def main():
         more_data = input('\nWould you like to view 5 lines of the selected raw data? Enter Yes or No.\n').title()
         answers = ['Yes', 'No']
         while more_data.title() not in answers:
-            print('Sorry, I didn\'t catch that. Try Again. \n')
+            print('Sorry, I Can\'t catch that. Try Again. \n')
             more_data = input('\nWould you like to view 5 lines of the selected raw data? Enter Yes if you want or type anything to exit.\n').title()
             break
 
